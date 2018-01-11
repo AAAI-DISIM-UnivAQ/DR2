@@ -54,8 +54,8 @@ Kobuki is able to detect people face and to recognize them (by making queries to
 -  http://wiki.ros.org/kobuki/Tutorials/Kobuki%27s%20Control%20System
 
 ## (OPTIONAL, if you have all the needed hardware, so you don't want to make a simulation only) Robot Instructions:
-1. Start with a clean Ubuntu 14 installation on jetson TK1, theb follow the instructions at:** \
-  https://gitlab.com/Centofanti/JetsonTK1-ROS-Kobuki-install
+1. Start with a clean Ubuntu 14 installation on jetson TK1, then follow the instructions at [GitLab](https://gitlab.com/Centofanti/JetsonTK1-ROS-Kobuki-install) or [GitHub](https://github.com/Mellgood/JetsonTK1-install-ROS-Kobuki-Astra.git). (Note the two repository are mirrored, so they are the same and you can chose just one of them) 
+  
 2. Now you have a full working Ros Indigo installation wich is able to talk with kobuki base and Astra camera and a pre-configured catkin workspace at ~/catkin_ws
 3. It is recommended to connect to jetson using different instance of [putty client](http://www.putty.org/) to manage ROS modules.
 
